@@ -1,0 +1,254 @@
+.wcp_logo_image {
+	margin-left: 40px;
+	border: 1px solid #ccc;
+}
+
+.row1 {
+	background-color: #fefefe;
+}
+.row0 {
+	background-color: rgba(255,255,255,0.25);
+}
+
+.database-name {
+	border: 0;
+}
+
+.wcp-license {
+	width: 300px;
+	border: 0;
+}
+
+textarea {
+	min-width: 300px;
+}
+
+.custom-css,
+.custom-js {
+	min-height: 300px;
+}
+
+.contact-upload.hide-contact {
+	display: none;
+}
+
+/* Initially hide submit and show for option pages that need it */
+form #submit {
+	display: none;
+}
+
+.button-primary.button-warning {
+	background-color: #ef5350;
+	border: 1px solid #f44336;
+	box-shadow: none;
+}
+
+.button-primary.button-warning:hover,
+.button-primary.button-warning:focus {
+	box-shadow: none;
+	background-color: #f44336;
+    border: 1px solid #e53935;
+}
+
+.wp-core-ui .button-warning.button-primary[disabled],
+.wp-core-ui .button-warning.button-primary:disabled {
+	box-shadow: none !important;
+	background-color: #777777 !important;
+	border: 1px solid #777777 !important;
+	color: #333 !important;
+}
+
+
+.reset-db-confirm.button-primary,
+.backup-db-confirm.button-primary,
+.restore-db-confirm.button-primary {
+	display:none;
+}
+
+a.remove-backup {
+	color: #f44336;
+}
+
+.reset-success,
+.backup-success,
+.restore-success,
+.restore-db-file,
+.backup-wait,
+.restore-wait {
+	display: none;
+}
+.success-msg {
+	font-size: 16px;
+	background-color: #8c9eff;
+	padding: 10px;
+}
+
+.left-content {
+	float: left;
+}
+.right-content {
+	float: left;
+	margin-left: 10px;
+}
+.clear-both {
+	clear: both;
+}
+
+.hide-me {
+	display: none;
+}
+
+.wcp-custom-links {
+	white-space:nowrap;
+	border-collapse: seperate;
+	border-spacing: 0 10px;
+}
+
+.wcp-custom-links td {
+	background-color: #ddd;
+}
+
+.wcp-cust-link,
+.wcp-cust-url,
+.wcp-cust-role {
+	border:0;
+}
+
+.system-access-active {
+	color: #15b532;
+}
+
+.wcp-cust-role {
+	padding: 10px;
+}
+.wcp-table-access-options {
+	width: 100%;
+}
+.wcp-table-access-options td,
+.wcp-user-roles td {
+	vertical-align: top;
+}
+
+.wcp-user-roles {
+	border-collapse:separate;
+	border-spacing: 0;
+	width:100%;
+}
+
+tr.cust-role-row {
+	background-color: rgba(0, 142, 194, 0.1);
+}
+tr.wcp-custrole-header {
+	background-color: #007cba;
+}
+tr.wcp-custrole-header:hover {
+	background-color: #0071a1;
+}
+tr.wcp-custrole-header th {
+	padding: 10px;
+	color: #fff;
+}
+tr.wcp-spacer {
+	height: 20px;
+}
+
+td.role-access {
+	padding-top: 0;
+}
+td.role-name {
+	padding-top: 17px;
+}
+
+.wcp-user-roles p.role-title {
+	background-color: #fff;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	color: #008ec2;
+}
+.wcp-user-roles p.fo_title {
+	color: #111;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.wcp-user-roles .wcp-disabled p.role-title {
+	background-color: #ccc;
+}
+.field_override_fields td {
+	padding: 0 20px 10px 0;
+}
+
+span.fo_explain {
+	color: #fff;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #555;
+	text-align: center;
+	margin-left: 20px;
+}
+span.fo_explain:hover {
+	cursor: pointer;
+}
+
+
+.remove-cust .remove-cont {
+	position: relative;
+	width: 40px;
+	height: 40px;
+}
+
+.remove-cust .remove-button {
+	background-color: #ccc;
+	color: #fff;
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 3;
+    transition: all 0.3s ease-in;
+	cursor: pointer;
+}
+.remove-cust .remove-button:hover {
+	background-color: #f44336;
+}
+.remove-cust .remove-button i {
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.wcp-cust-url {
+	width: 300px;
+}
+
+.wcp-md.md-sort {
+	cursor: pointer;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.ui-sortable-helper {
+    display: table;
+}
+
+.shwcp-small-htext {
+	font-size: 12px;
+	padding-left: 5px;
+	color: #777;
+	display:inline-block;
+}
+.wcp_users {
+	width: 100%;
+}
+.wcp_users th, .wcp_users td {
+	padding: 10px 10px;
+}
+.shwcp-version {
+	color: #15b532;
+	font-weight: 700;
+}
